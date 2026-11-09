@@ -1,0 +1,163 @@
+{
+ "when": "2026-11-09T02:13:24.662Z",
+ "n": 20,
+ "audit": [
+  {
+   "seed": "R40",
+   "role": "open-water cruiser (tuna)",
+   "name": "Silver swiftfin tuna",
+   "tris": 86038,
+   "issues": []
+  },
+  {
+   "seed": "R34",
+   "role": "bottom ambusher (scorpionfish)",
+   "name": "Spotted bighead scorpionfish",
+   "tris": 76122,
+   "issues": []
+  },
+  {
+   "seed": "R8",
+   "role": "deep-bodied reef fish (angelfish)",
+   "name": "Striped deepbody angelfish",
+   "tris": 64540,
+   "issues": []
+  },
+  {
+   "seed": "R7",
+   "role": "elongated hunter (pike)",
+   "name": "Barred slender pike",
+   "tris": 97796,
+   "issues": []
+  },
+  {
+   "seed": "R1",
+   "role": "eel / ribbon fish",
+   "name": "Marbled slender eel",
+   "tris": 76416,
+   "issues": []
+  },
+  {
+   "seed": "R22",
+   "role": "armored fish (boxfish)",
+   "name": "Spotted deepbody boxfish",
+   "tris": 69800,
+   "issues": []
+  },
+  {
+   "seed": "R3",
+   "role": "deep-water fish (dragonfish)",
+   "name": "Black lantern dragonfish",
+   "tris": 106256,
+   "issues": []
+  },
+  {
+   "seed": "R4^R6.h1",
+   "role": "hybrid 1 (perch x puffer)",
+   "name": "Marbled bigeye pufferfish",
+   "tris": 91502,
+   "issues": []
+  },
+  {
+   "seed": "R54^R18.h2",
+   "role": "hybrid 2 (jack x mackerel)",
+   "name": "Silver jack",
+   "tris": 91248,
+   "issues": []
+  },
+  {
+   "seed": "R19",
+   "role": "shark",
+   "name": "Sand shark",
+   "tris": 33048,
+   "issues": []
+  },
+  {
+   "seed": "R31",
+   "role": "grouper (reference screenshot fish)",
+   "name": "Marbled bighead grouper",
+   "tris": 97334,
+   "issues": []
+  },
+  {
+   "seed": "R55",
+   "role": "ray",
+   "name": "Marbled slender stingray",
+   "tris": 59302,
+   "issues": []
+  }
+ ],
+ "determinism": [
+  {
+   "seed": "R31",
+   "a": "862.1526/166602",
+   "b": "862.1526/166602",
+   "same": true
+  },
+  {
+   "seed": "R7^R19.x",
+   "a": "909.662/53832",
+   "b": "909.662/53832",
+   "same": true
+  },
+  {
+   "seed": "R22",
+   "a": "836.53502/121215",
+   "b": "836.53502/121215",
+   "same": true
+  }
+ ],
+ "independence": [
+  {
+   "seed": "R31",
+   "gillChanged": false,
+   "eyeSame": true,
+   "mouthSame": true,
+   "paletteSame": true,
+   "fins": true
+  },
+  {
+   "seed": "R40",
+   "gillChanged": false,
+   "eyeSame": true,
+   "mouthSame": true,
+   "paletteSame": true,
+   "fins": true
+  },
+  {
+   "seed": "R8",
+   "gillChanged": false,
+   "eyeSame": true,
+   "mouthSame": true,
+   "paletteSame": true,
+   "fins": true
+  }
+ ],
+ "stress": null,
+ "pageErrors": [],
+ "sheet": {
+  "summary": {
+   "n": 20,
+   "pass": 20,
+   "fail": 0,
+   "counts": {},
+   "arch": {
+    "ambush": 2,
+    "flat": 6,
+    "reef": 5,
+    "eel": 2,
+    "armored": 1,
+    "-": 2,
+    "forage": 1,
+    "cruiser": 1
+   },
+   "rerolled": 0
+  },
+  "bad": [],
+  "maxTris": 114716,
+  "medTris": 81480
+ },
+ "failures": [],
+ "pass": true,
+ "seconds": 198
+}
